@@ -50,7 +50,10 @@ def client_handler(client,addr):
 		except Exception as e:
 			
 			try:
-				client.sendall('q'.encode('utf-8'))
+				try:
+					client.sendall('q'.encode('utf-8'))
+				except:
+					pass
 				print(e)
 				rnum = pvroom[str(addr)]
 				pvdict[rnum].remove(client)
