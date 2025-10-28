@@ -11,7 +11,7 @@ import sys
 
 PORT = 8500
 BUFSIZE = 4096
-SERVERIP = '159.65.135.242' # SERVER IP
+SERVERIP = '159.223.46.145' # SERVER IP
 #SERVERIP = '192.168.1.150'
 
 status = False
@@ -275,3 +275,4 @@ GUI2Dialog()
 print('Uncle Chat (V.0.0.1) Starting...')
 
 GUI.mainloop()
+
